@@ -1,14 +1,27 @@
 # Bootcamp Module2 Challenge 
 author: Ji Zhang  
 
+## application function description
+
+todo
+
+## Live URL link to deployed application
+
+todo
+
+## page screenshot
+
+todo
+
 ### task checklist
-- [ ] portfolio has the developer's name, an avatar, 
+- [X] portfolio has the developer's name, an avatar, 
 - [ ] several link types, to sections, works(deployed application) and contact info;
 - [ ] Links work well;
-- [ ] ==???(static or dynamic)== the work section has titled images of the developer's application; 
-- [ ] ==???(static or dynamic)== the first application's image should be larger than the others;
-- [ ] application image link to deployed application ??? (outside link or in-site page link?)
+- [X] the work section has titled images of the developer's application; 
+- [X] the first application's image should be larger than the others;
+- [ ] application image link to deployed application;
 - [ ] a responsive layout that adapts to my viewport
+- [X] when mouse move on work image, turn to hand; (cursor: pointer)
 
 ### User Story
 
