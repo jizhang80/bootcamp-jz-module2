@@ -3,24 +3,31 @@ author: Ji Zhang
 
 ## application function description
 
-todo
+* I tried to 100% copy the mock-up, include the color, layout and behavier.
+* The page's max-width is 1900px, min-width is 375px, it would response to the width change.
+* The resume link to a fake file resume, the application images link to fake deployed files.
+* In the "Contact Me" part:
+    * phone number links to tel:phonenumber;
+    * email links to mailto:emailaddress;
+    * github/twitter/spotify links to those application first page;
+
 
 ## Live URL link to deployed application
 
-todo
+[The live URL link to deployed application](https://jizhang80.github.io/bootcamp-jz-module2/)
 
 ## page screenshot
 
-todo
+![Page Screenshot](./assets/img/pagescreenshot.jpg)
 
 ### task checklist
 - [X] portfolio has the developer's name, an avatar, 
-- [ ] several link types, to sections, works(deployed application) and contact info;
-- [ ] Links work well;
+- [X] several link types, to sections, works(deployed application) and contact info;
+- [X] Links work well;
 - [X] the work section has titled images of the developer's application; 
 - [X] the first application's image should be larger than the others;
-- [ ] application image link to deployed application;
-- [ ] a responsive layout that adapts to my viewport
+- [X] application image link to deployed application;
+- [X] a responsive layout that adapts to my viewport
 - [X] when mouse move on work image, turn to hand; (cursor: pointer)
 
 ### User Story
