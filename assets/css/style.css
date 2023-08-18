@@ -9,6 +9,7 @@
 
 body {
     max-width: 1900px;
+    min-width: 375px;
 }
 
 /* header and nav bar*/
@@ -75,7 +76,7 @@ header {
     padding: 20px;
     height: 30px;
     width: 300px;
-    margin-right:200px;
+    margin-right:150px;
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -103,6 +104,7 @@ body {
 }
 
 .section-title {
+    flex-basis: 20%;
     border-right: 5px solid var(--main-text-color);
     padding-right: 15px;
     margin-right: 30px;
@@ -115,7 +117,8 @@ body {
 }
 
 .section-content {
-    width: 90%;
+    flex-basis: 80%;
+    /* width: 90%; */
     margin: 10px
 }
 
@@ -185,7 +188,7 @@ body {
 
 
 .contact-info {
-    display: flex;
+    display: flex
 }
 
 .contact-info span {
@@ -200,3 +203,81 @@ body {
     font-size: large;
     color: var(--main-text-color);
 }
+
+/*  
+responsive layout 
+when width > 1190, show the default layout
+when 900 < width < 1190, change the "contact me" part layout
+*/
+
+@media screen and (max-width: 1190px) {
+    /* change "contact me" links layout */
+    .contact-info span {
+        padding:2px;
+        border-bottom: none;
+        margin: 2px;
+        border-right: 1px solid var(--main-text-color);
+    }
+    
+    .contact-info a {
+        font-size:medium;
+    }
+
+    /* change the title size, and ratio of title and content */
+    .section-title {
+        font-size: x-large;
+        flex-basis: 15%;
+    }
+
+    .section-content {
+        flex-basis: 85%;
+    }
+}
+
+/* when width < 900, change everything layout */
+
+@media screen and (max-width: 900px) {
+    .subtitle-bg { /* sub-title area no display */
+        display: none;
+    }
+
+    .left-right-layout { /* change title and content to vertical */
+        flex-direction: column;
+    }
+
+    header { /* change header to vertical layout */
+        flex-direction: column;
+    }
+
+    .section-title { /* change title size and location */
+        border-bottom: 2px solid var(--main-text-color);
+        border-right: none;
+        padding-right: 0px;
+        margin-right: 0px;
+        margin-left:10px;
+        font-size: x-large;
+        text-align: left;
+    }
+
+    .nav-link {
+        font-size: small;
+    }
+
+    .authorName {
+        font-size: 100%;
+    }
+
+    
+}
+
+@media screen and (max-width: 450px) {
+    /* works content flex column*/
+    .work-content {
+        flex-direction: column;
+    }
+
+    .contact-info a {
+        font-size:small;
+    }
+}
+
