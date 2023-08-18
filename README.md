@@ -3,7 +3,7 @@ author: Ji Zhang
 
 ## application function description
 
-* I tried to 100% copy the mock-up, include the color, layout and behavier.
+* I tried to 100% copy the mock-up, include the color, layout and behavior.
 * The page's max-width is 1900px, min-width is 375px, it would response to the width change.
 * The resume link to a fake file resume, the application images link to fake deployed files.
 * In the "Contact Me" part:
