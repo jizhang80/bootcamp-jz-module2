@@ -12,7 +12,7 @@ author: Ji Zhang
     * github/twitter/spotify links to those application first page;
 
 
-## Live URL link to deployed application
+## live URL link to deployed application
 
 [The live URL link to deployed application](https://jizhang80.github.io/bootcamp-jz-module2/)
 
